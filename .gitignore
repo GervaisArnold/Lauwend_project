@@ -1,0 +1,12 @@
+# local .terraform dir
+.terraform/*
+
+#tf state files
+*.tfstate
+*.tfstate.*
+
+# tf variables files, may include sensitive data
+*.tfvars
+
+# tf setup, this is tf installation package
+*.exe
